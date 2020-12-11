@@ -1,15 +1,53 @@
 <div class='dashboard'>
     <div class='container'>
         <div class='row'>
-            <div class='col col-md-10 offset-1'>
+            <div class='col col-md-2'>
+                <h5 class="card-title">Stats Me</h5>
+                      <ul>
+                        <li>Dashboard</li>
+                        <li>Goals</li>
+                        <li>Analytics</li>
+                        <li>Settings</li>
+                      </ul>
+            </div>
+            
+            <div class='col col-md-7'>
                 <div class="card">
                     <div class="card-body">
                       <h5 class="card-title">Welcome Jada Monique</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                  </div>
+                </div>
 
-                  <app-bar-chart></app-bar-chart>
+                <div class="card graph-card">
+                    <!-- <app-bar-chart></app-bar-chart> -->
+                    <app-line-chart></app-line-chart>
+                </div>
+            </div>
+
+            <div class='col col-md-3'>
+                <h5>Jada Monique</h5>
+                <div class="card stat-card">
+                    <div class="card-body">
+                      <h5 class="card-title">Followers</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card stat-card">
+                    <div class="card-body">
+                      <h5 class="card-title">Posts</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card stat-card">
+                    <div class="card-body">
+                      <h5 class="card-title">Money Earned</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>  
